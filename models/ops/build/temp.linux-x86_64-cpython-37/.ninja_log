@@ -1,0 +1,4 @@
+# ninja log v5
+0	6457	1730283170	/mnt/hdd_10tb_sdb/amal/__breast__mammo/Deformable-DETR-main/models/ops/build/temp.linux-x86_64-cpython-37/mnt/hdd_10tb_sdb/amal/__breast__mammo/Deformable-DETR-main/models/ops/src/cpu/ms_deform_attn_cpu.o	2fbd0cb718c72d7c
+1	19838	1730283183	/mnt/hdd_10tb_sdb/amal/__breast__mammo/Deformable-DETR-main/models/ops/build/temp.linux-x86_64-cpython-37/mnt/hdd_10tb_sdb/amal/__breast__mammo/Deformable-DETR-main/models/ops/src/cuda/ms_deform_attn_cuda.o	96bd11e25a9c5288
+1	20564	1730283184	/mnt/hdd_10tb_sdb/amal/__breast__mammo/Deformable-DETR-main/models/ops/build/temp.linux-x86_64-cpython-37/mnt/hdd_10tb_sdb/amal/__breast__mammo/Deformable-DETR-main/models/ops/src/vision.o	95ab7ee3a4109a8f
