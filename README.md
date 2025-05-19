@@ -43,12 +43,18 @@ Use `python train.py --config-name pre_train_b5_clip.yaml` for training.
 ## Results
 
 ![calc](https://github.com/user-attachments/assets/8fcba737-44e4-4475-b6e9-cc4bb0ab9ca2)
-![mass](https://github.com/user-attachments/assets/5d143999-f54d-420a-a62a-03bb1de54d81)
+![mass](https://github.com/user-attachments/assets/d57d1c62-6837-414a-af5f-bb1977c403c2)
 
 ## FAQ
-**Q:** What is the point of this project? **A:** This was supposed to be my Master's thesis, maybe a good conference paper. It was like my child. But alas, like many children, it turned out to be a disappointment. But damn, I learned a lot raising it.
-**Q:** Why isn't it published? **A:** I found a paper which was doing something VERY similar (and better).
-**Q:** Why not change/improve the methodology? **A:** We started with breast ultrasounds. During the initial experimentation, I tried EVERYTHING on this planet from SAM models to adapters to transformers to LLAVA and reached to this method. We soon realised that the ultrasound dataset was too small to train a foundation model. So, we moved towards mammograms, by which time I found the other paper. Then, we tried to apply  this to chest x-rays. After the initial literature review for x-rays, and preprocessing, I had exactly three weeks to my final dissertation presentation. No results, just deadlines.
-**Q:** Why is there no benchmark or ablation study to compare to other works? **A:** Girl.
-**Q:** Why not work on this project after graduation? Go for a PhD even? **A:** I would rather drink acid.
+
+**Q:** What is the point of this project? **A:** This was supposed to be my Master's thesis, maybe a good conference paper. It was like my child. But alas, like many children, it turned out to be a disappointment. But damn, I learned a lot raising it.  
+
+**Q:** Why isn't it published? **A:** I found a paper which was doing something VERY similar (and better).  
+
+**Q:** Why not change/improve the methodology? **A:** We started with breast ultrasounds. During the initial experimentation, I tried EVERYTHING on this planet from SAM models to adapters to transformers to LLAVA and reached to this method. We soon realised that the ultrasound dataset was too small to train a foundation model. So, we moved towards mammograms, by which time I found the other paper. Then, we tried to apply  this to chest x-rays. After the initial literature review for x-rays, and preprocessing, I had exactly three weeks to my final dissertation presentation. No results, just deadlines.  
+
+**Q:** Why is there no benchmark or ablation study to compare to other works? **A:** Girl.  
+
+**Q:** Why not work on this project after graduation? Go for a PhD even? **A:** I would rather drink acid.  
+
 **Q:** What did you learn from this? **A:** EVERYTHING related to VLMs, LLMs, transformers, ViT-based encoders, prompt encoders, text encoders, I was going through codes from Meta to random GitHub repos like a half-feral researcher, desperately trying to stitch together the sacred texts of the multimodal gods. I can confidently say I have implemented EVERYTHING that came out in 2024. And that this is a VERY fast paced research area, if you don't start with a proper baseline, you will end up wasting a lot of time.
