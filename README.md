@@ -29,14 +29,14 @@ For the main branch, the setup is the same as the deformable DETR [Link](https:/
 
 For the VLM branch:
 ```
-conda env create --name vlm -f environment.yml
-conda activate vlm
+conda env create --name mammo -f environment.yml
+conda activate mammo
 ```
 Specifications:
 
-Python version: 3.8.18
-PyTorch version: 2.2.2
-CUDA version: 11.8
+- Python version: 3.8.18
+- PyTorch version: 2.2.2
+- CUDA version: 11.8
 
 Use `python train.py --config-name pre_train_b5_clip.yaml` for training.
 
