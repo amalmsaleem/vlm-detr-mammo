@@ -60,7 +60,7 @@ Use `python train.py --config-name pre_train_b5_clip.yaml` for training.
 **A:** Girl.  
 
 **Q:** Why not work on this after graduation? You could go for a PhD to further this project, right?  
-**A:** It’s dead. I gave it a proper funeral. I’m not resurrecting it just to watch it die again in higher resolution.
+**A:** This project had its arc. It ended in flames and character development. No spin-offs. No sequels.
 
 **Q:** What did you learn from this?  
 **A:** EVERYTHING related to VLMs, LLMs, transformers, ViT-based encoders, prompt encoders, text encoders, I was going through codes from Meta to random GitHub repos like a half-feral researcher, desperately trying to stitch together the sacred texts of the multimodal gods. This was a crash course in state-of-the-art 2024 computer vision and VLM research. This is a VERY fast-paced field, if you don't start with a solid baseline, you will end up wasting a lot of time.
