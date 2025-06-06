@@ -4,8 +4,8 @@ This repository presents a multimodal tumor detection framework that integrates 
 
 ## Proposed Architecture:
 
-![arch](https://github.com/user-attachments/assets/72fc0c43-10ba-4d8d-8d8b-9257d58aa80b)
-
+![arch1](https://github.com/user-attachments/assets/86926317-f358-4238-82c3-9b188963e9c2)
+![arch2](https://github.com/user-attachments/assets/151b80b4-04c7-4364-88bd-cf304c2ae15a)
 
 ## 🌿 Project Structure: Two Development Branches
 
@@ -42,24 +42,23 @@ Use `python train.py --config-name pre_train_b5_clip.yaml` for training.
 
 ## Results
 
-![calc](https://github.com/user-attachments/assets/4c8ee87e-4135-4209-8f80-b758235ba5d1)
-![mass](https://github.com/user-attachments/assets/d57d1c62-6837-414a-af5f-bb1977c403c2)
+![calc](https://github.com/user-attachments/assets/15203295-614d-4a1c-bc84-ca32c47911af)
+mAP: 0.29
+![mass](https://github.com/user-attachments/assets/ab7fb769-f8ba-46f4-b595-d4e48a50cc15)
+mAP: 0.52
 
 ## FAQ
 
-**Q:** What is the point of this project?  
+**Q:** What is this project?  
 **A:** This was supposed to be my Master's thesis, maybe even a decent conference paper. It was like my child. But alas, like many children, it turned out to be a disappointment. But, I learned a lot raising it.  
 
-**Q:** Why isn't it published?  
-**A:** I found a paper which was doing something VERY similar (and better).  
+**Q:** Why didn't it work out?  
+**A:** The results are decent, close to baseline for this task. However, during my experimentation phase, another work was published which was doing something VERY similar (and better).  
 
 **Q:** Why not change/improve the methodology?  
-**A:** We started with breast ultrasounds. During the initial experimentation, I tried EVERYTHING on this planet from SAM models to adapters to transformers to LLAVA and reached to this method. We soon realised that the ultrasound dataset was too small to train a foundation model. So, we pivoted to mammograms, and found the other paper. Then we pivoted again to chest x-rays. After the initial literature review for x-rays, and preprocessing, I had exactly three weeks to my final dissertation presentation. No results, just deadlines.  
+**A:** We started with breast ultrasounds. During the initial experimentation, I tried EVERYTHING on this planet from SAM models to adapters to transformers to LLAVA and reached to this method. We soon realised that the ultrasound dataset was too small to train a foundation model. So, we pivoted to mammograms, and while I was doing the experimentation, I found the other paper. Then we pivoted again to chest x-rays. After the initial literature review for x-rays, and preprocessing, I had exactly three weeks to my final dissertation presentation. No results, just deadlines.  
 
-**Q:** Why is there no benchmark or ablation study to compare to other works? 
-**A:** Girl.  
-
-**Q:** Why not work on this after graduation? You could go for a PhD to further this project, right?  
+**Q:** Why not work on this after graduation? You could go for a PhD to further this project.  
 **A:** This project had its arc. It ended in flames and character development. No spin-offs. No sequels.
 
 **Q:** What did you learn from this?  
