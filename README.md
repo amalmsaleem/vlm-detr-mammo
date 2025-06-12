@@ -42,7 +42,7 @@ Use `python train.py --config-name pre_train_b5_clip.yaml` for training.
 
 ## Results
 
-![calc](https://github.com/user-attachments/assets/15203295-614d-4a1c-bc84-ca32c47911af)
+![image](https://github.com/user-attachments/assets/962e8843-dfae-41b5-bb88-d5668defad44)
 mAP: 0.29
 ![mass](https://github.com/user-attachments/assets/ab7fb769-f8ba-46f4-b595-d4e48a50cc15)
 mAP: 0.52
